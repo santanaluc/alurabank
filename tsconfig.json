@@ -1,0 +1,13 @@
+//Configuracao mínima
+{
+    "compilerOptions": {
+        "target": "es6",//codico para ecmascript6
+        "outDir": "alurabank/app/js",//resultado da compilacao criará essa pasta
+        "noEmitOnError": true, //se tiver com erro no typescript ele nao gera o arquivo javascript
+        "noImplicitAny": true,
+        "removeComments": true
+    },
+    "include": [
+        "alurabank/app/ts/**/*"//arquivos para ser usado durante a compilacao
+    ]
+}
