@@ -5,7 +5,8 @@
         "outDir": "alurabank/app/js",//resultado da compilacao criará essa pasta
         "noEmitOnError": true, //se tiver com erro no typescript ele nao gera o arquivo javascript
         "noImplicitAny": true,
-        "removeComments": true
+        "removeComments": true,
+        "module": "system"
     },
     "include": [
         "alurabank/app/ts/**/*"//arquivos para ser usado durante a compilacao
