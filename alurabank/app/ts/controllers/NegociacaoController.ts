@@ -1,11 +1,16 @@
-class NegociacaoController {
+import { NegociacoesView } from '../views/NegociacoesView';
+import { MensagemView } from '../views/MensagemView';
+import { Negociacoes } from '../models/negociacoes';
+import { Negociacao } from '../models/negociacao';
+
+export class NegociacaoController {
 
     private _inputData: JQuery;
     private _inputQuantidade: JQuery;
     private _inputValor: JQuery;
     private _negociacoes: Negociacoes = new Negociacoes();
-    private _negociacoesView = new Views.NegociacoesView('#negociacoesView');
-    private _mensagemview = new Views.MensagemView('#mensagemView')
+    private _negociacoesView = new NegociacoesView('#negociacoesView');
+    private _mensagemview = new MensagemView('#mensagemView')
 
     constructor() {
         this._inputData = $('#data')

@@ -1,4 +1,4 @@
-class Negociacao {
+export class Negociacao {
 
     constructor(private _data:Date, private _quantidade:number, private _valor:number) {} //depois de criada nao pode ser alterada, por isso o underline.
 
