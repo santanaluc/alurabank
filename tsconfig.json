@@ -6,7 +6,8 @@
         "noEmitOnError": true, //se tiver com erro no typescript ele nao gera o arquivo javascript
         "noImplicitAny": true,
         "removeComments": true,
-        "module": "system"
+        "module": "system",
+        "strictNullChecks": true
     },
     "include": [
         "alurabank/app/ts/**/*"//arquivos para ser usado durante a compilacao

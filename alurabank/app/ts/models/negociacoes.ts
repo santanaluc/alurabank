@@ -12,6 +12,6 @@ export class Negociacoes {
     //retorna um novo array de objetos com a cópia do array original para evitar que o array original seja excluído
     paraArray(): Negociacao[] {
 
-        return [].concat(this._negociacoes);
+        return ([] as Negociacao[]).concat(this._negociacoes);
     }
 }
