@@ -28,8 +28,6 @@ export class NegociacaoController {
             return
         }
 
-        
-
         const negociacao = new Negociacao(
             data,
             parseInt(this._inputQuantidade.val()),
